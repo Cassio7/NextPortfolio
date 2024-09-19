@@ -9,7 +9,7 @@ import CustomDock from "@/components/CustomDock";
 
 export default function Home() {
   return (
-    <div className="relative w-8/12 mx-auto items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] overflow-hidden">
+    <div className="flex min-h-screen flex-col md:gap-12 gap-8 md:p-24 p-10 relative overflow-hidden lg:w-7/12 sm:w-full mx-auto">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start w-full overflow-hidden">
         <Meteors />
         <Intro />
