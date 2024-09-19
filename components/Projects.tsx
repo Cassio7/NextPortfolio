@@ -19,31 +19,28 @@ const projectsData = [
       "MySQL",
     ],
   },
+  // {
+  //   title: "Tortellini TAP & APD",
+  //   description:
+  //     "Tortellini is an e-commerce website for managing and selling tortellini.",
+  //   code: "https://github.com/Cassio7/Tortellini_website",
+  //   previewPhoto: "/projects/trannoi.png",
+  //   technologies: [
+  //     "Laravel",
+  //     "Bootstrap",
+  //     "PHP",
+  //     "MySQL",
+  //   ],
+  // },
   {
-    title: "Tortellini TAP & APD",
+    title: "Booking Classes",
     description:
-      "Tortellini is an e-commerce website for managing and selling tortellini.",
-    code: "https://github.com/Cassio7/Tortellini_website",
-    previewPhoto: "/projects/trannoi.png",
+      "Telegram Bot for booking classes at University of Perugia, Computer Scienze course.",
+    code: "https://github.com/Cassio7/PrenotazioneLezioniBot",
+    previewPhoto: "/projects/telegram.jpg",
     technologies: [
-      "Laravel",
-      "Bootstrap",
-      "PHP",
-      "MySQL",
-    ],
-  },
-  {
-    title: "SoundClaudio",
-    description:
-      "SoundClaudio is a replica of SoundCloud, a music streaming and sharing platform.",
-    code: "https://github.com/Cassio7/SoundClaudio",
-    previewPhoto: "/projects/SoundClaudio.png",
-    technologies: [
-      "Angular",
-      "Bootstrap",
-      "NodeJS",
-      "Express",
-      "TypeScript",
+      "Python",
+      "Telebot",
       "MySQL",
     ],
   },
