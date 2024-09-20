@@ -59,9 +59,7 @@ const Icons = {
 };
 
 const DATA = {
-  navbar: [
-    { href: "#", icon: HomeIcon, label: "Home" },
-  ],
+  navbar: [{ href: "#", icon: HomeIcon, label: "Home" }],
   contact: {
     social: {
       GitHub: {
@@ -167,17 +165,16 @@ export function CustomDock() {
             <DockIcon>
               <Tooltip>
                 <TooltipTrigger asChild>
-                  <div className="size-12 rounded-full flex items-center justify-center">
+                  <div
+                    className="size-12 rounded-full flex items-center justify-center p-2 cursor-pointer transition-colors duration-300 hover:bg-gray-100 dark:hover:bg-gray-800"
+                    onClick={() =>
+                      setTheme(resolvedTheme === "light" ? "dark" : "light")
+                    }
+                  >
                     {resolvedTheme === "light" ? (
-                      <Moon
-                        className="h-[1.2rem] w-[1.2rem] "
-                        onClick={() => setTheme("dark")}
-                      />
+                      <Moon className="h-[1.2rem] w-[1.2rem]" />
                     ) : (
-                      <Sun
-                        className="h-[1.2rem] w-[1.2rem] "
-                        onClick={() => setTheme("light")}
-                      />
+                      <Sun className="h-[1.2rem] w-[1.2rem]" />
                     )}
                   </div>
                 </TooltipTrigger>
