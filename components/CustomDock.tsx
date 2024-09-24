@@ -7,7 +7,6 @@ import {
   HomeIcon,
   MailIcon,
   Moon,
-  PencilIcon,
   Sun,
 } from "lucide-react";
 
