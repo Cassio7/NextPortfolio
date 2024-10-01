@@ -91,7 +91,7 @@ function Projects() {
                 ))}
               </div>
               <div className="flex gap-2 mt-auto">
-                <Link href={project.code}>
+                <Link href={project.code} target="_blank">
                   <Button variant="default">Code</Button>
                 </Link>
               </div>

@@ -2,13 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import {
-  CalendarIcon,
-  HomeIcon,
-  MailIcon,
-  Moon,
-  Sun,
-} from "lucide-react";
+import { CalendarIcon, HomeIcon, MailIcon, Moon, Sun } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
@@ -143,6 +137,7 @@ export function CustomDock() {
                   <TooltipTrigger asChild>
                     <Link
                       href={social.url}
+                      target="_blank"
                       className={cn(
                         buttonVariants({ variant: "ghost", size: "icon" }),
                         "size-12 rounded-full"
