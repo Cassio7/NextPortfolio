@@ -3,7 +3,7 @@ import ProfilePic from "@/app/images/primopiano.png";
 
 export default function Intro() {
   return (
-    <div className="w-full flex flex-col-reverse lg:flex-row gap-14 justify-between items-center">
+    <div className="w-full flex flex-col-reverse lg:flex-row gap-14 justify-between items-center relative z-10">
     <div className="flex flex-col gap-2 w-full lg:w-4/5">
         <h1 className="text-4xl font-bold mb-4">Hi! I am Alessio Cassieri</h1>
         <p className="text-base text-gray-800 dark:text-gray-300">

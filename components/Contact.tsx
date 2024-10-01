@@ -17,6 +17,7 @@ function Contact() {
         or email me directly at{" "}
         <Link
           href="mailto:alessio.cassieri@protonmail.com"
+          target="_blank"
           className="text-blue-500"
         >
           alessio.cassieri@protonmail.com

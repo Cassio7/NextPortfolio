@@ -40,7 +40,7 @@ const Education: React.FC = () => {
               }`}
             >
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <div className="hover:bg-neutral-100 dark:hover:bg-gray-800 hover:shadow-lg rounded-lg hover:-translate-y-1 hover:scale-70 duration-300">
+              <div className="hover:bg-neutral-200 dark:hover:bg-zinc-800 hover:shadow-lg rounded-lg hover:-translate-y-1 hover:scale-70 duration-300">
                 <time className="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-500">
                   {item.startDate} - {item.endDate || "Present"}
                 </time>
